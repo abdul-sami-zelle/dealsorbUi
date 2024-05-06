@@ -5,7 +5,7 @@ import Grid from '@mui/material/Grid';
 import App22 from './picker1'
 import WebCube from './cubeSwiper/webViewCubeSwiper';
 import CatName from './catName';
-import OcassionProductCard from './ocassionsProductCard/ocassionProductcard1';
+// import OcassionProductCard from './ocassionsProductCard/ocassionProductcard1';
 
 
 const products = [
