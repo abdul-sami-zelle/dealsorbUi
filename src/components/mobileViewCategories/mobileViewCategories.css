@@ -1,0 +1,55 @@
+
+.mobview{
+    display: none;
+  }
+.mainCategoryRow {
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .mainCategoryCircle {
+    height: 80px !important;
+    width: 90px !important;
+    border-radius: 100%;
+    background-color: #fdf8f3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+  }
+  
+  .mainCategoryCircle img {
+    margin-top: -20px;
+  }
+  
+  .mainCategoryCircle p {
+    position: relative;
+    bottom: -1px !important;
+    color: black;
+    font-weight: 700;
+    font-size: 10px;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .CategoriesScrollBtn{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DB4444;
+    color: white !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+
+
+  @media screen and (max-width: 660px) {
+    .mobview{
+      display: block;
+    }
+  }

@@ -1,0 +1,59 @@
+.roundedCatMain{
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    background-color: #E9EAEC;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.categoryHeading{
+    width: 140px;
+    margin-top: 10px;
+}
+
+.categoryHeading h1{
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+
+.roundedCatMain:hover + .categoryHeading h1,
+.categoryHeading:hover h1 {
+    text-decoration: underline;
+    
+}
+
+
+.roundCircleRC{
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    background: linear-gradient(-45deg, #fff 40%, #fafafa 50%, #fff 60%);
+    background-size: 300%;
+    background-position-x: 100%;
+    animation: shimmer 4s infinite linear;
+}
+
+.textLine1Loader{
+    height: 10px;
+    width: 50px;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #fff 40%, #fafafa 50%, #fff 60%);
+    background-size: 300%;
+    background-position-x: 100%;
+    margin-top: 15px;
+    animation: shimmer 4s infinite linear;
+}
+.textLine2Loader{
+    height: 10px;
+    width: 100px;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #fff 40%, #fafafa 50%, #fff 60%);
+    background-size: 300%;
+    background-position-x: 100%;
+    margin-top: 10px;
+    animation: shimmer 4s infinite linear;
+}

@@ -1,0 +1,109 @@
+.mainMobileNewArrival{
+    height: 350px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.mainArrivalMobile{
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+}
+
+.mainArrivalMobile2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.subArrivalMobile1{
+    position: relative;
+    height: 39%;
+    background-color: blue;
+    border-radius: 7px;
+    background-image: url('https://i2-prod.mirror.co.uk/incoming/article22315296.ece/ALTERNATES/s615b/0_PlayStation-5-black-edition-concept.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.subArrivalMobile2{
+    position: relative;
+    height: 59%;
+    background-color: pink;
+    border-radius: 7px;
+    background-image: url('https://img.freepik.com/free-photo/high-angle-controller-gaming-chair_23-2149829137.jpg?size=626&ext=jpg&ga=GA1.1.1231673615.1695361210&semt=ais');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.subArrivalMobile01{
+    height: 59%;
+    background-color: brown;
+    position: relative;
+    border-radius: 7px;
+    background-image: url('https://www.axiomaudio.com/media/mageplaza/blog/post/2/0/5ccc39a029123.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.subArrivalMobile02{
+    position: relative;
+    height: 39%;
+    background-color: purple;
+    border-radius: 7px;
+    background-image:url('https://c1.wallpaperflare.com/preview/337/224/913/perfume-bottle-smell-light-thumbnail.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.internalDataMobileNewArrival{
+    position: absolute !important;
+    bottom: 5px !important;
+    left: 5px !important;
+
+}
+
+.internalDataMobileNewArrival h1{
+    color: white !important;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
+
+.internalDataMobileNewArrival p{
+    color: white !important;
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 85%;
+}
+
+.internalDataMobileNewArrival Button{
+    height: 20px;
+    width: 60px;
+    padding: 0px;
+    background-color: white;
+    color: black;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.internalDataMobileNewArrival Button:hover{
+    height: 20px;
+    width: 60px;
+    padding: 0px;
+    background-color: white;
+    color: black;
+    font-size: 9px;
+    font-weight: bold;
+}

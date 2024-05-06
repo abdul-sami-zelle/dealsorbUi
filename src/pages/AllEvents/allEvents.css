@@ -1,0 +1,268 @@
+.bannerImgAllEvents{
+    height: 100px;
+    background-color: #36454f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerImgAllEvents h1{
+    font-family: 'Montserrat';
+    color: #fff;
+    margin: 0 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.bannerImgAllEvents img{
+    height: 40px;
+    width:40px;
+}
+
+.middle
+{
+    width: 200px;
+    
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.container
+{
+  position: relative;
+  display: inline-block;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.text
+{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  position: relative;
+  color: #34495e; 
+}
+
+.text::before
+{
+  content: attr(data-text);
+  position: absolute;
+  color: #fff;
+  width: 0;
+  overflow: hidden;
+  transition: 0.6s;
+}
+
+.container::before
+{
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background: #2980b9;
+  right: 0;
+  top: 0;
+  transition: 0.6s;
+}
+
+.container:hover .text::before,.container:hover::before
+{
+  width: 100%;
+}
+
+
+
+.mainEventComponent{
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EventComponentContent{
+    height: 600px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+
+}
+
+.EventComponentContent h6{
+    font-family: 'Montserrat';
+    color: #1A9BF7;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.EventComponentContent h1{
+    font-family: 'Montserrat';
+    color: black;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.underline1{
+    width: 80px;
+    display: flex;
+}
+
+.underline1A{
+    height: 5px;
+    width: 20%;
+    background-color: #1A9BF7;
+    border-radius: 10px;
+}
+.underline1B{
+    height: 5px;
+    width: 10%;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.underline1C{
+    height: 5px;
+    width: 70%;
+    background-color: #1A9BF7;
+    border-radius: 10px;
+}
+
+.EventComponentContent p{
+    font-family: 'Montserrat';
+    color: #36454f;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.eventTimerHeading{
+    display: flex;
+    align-items: center;
+}
+
+.eventTimerHeading h2{
+    font-family: 'Montserrat';
+    color: #36454f;
+    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.eventTimerHeading img{
+    height: 40px;
+    width: 40px;
+}
+
+.counterET{
+    display: flex;
+}
+
+
+.daysET{
+    height: 80px;
+    width: 70px;
+    background-color: #36454f;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.daysETA{
+    /* position: relative; */
+    height: 70px;
+    width: 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeET{
+    font-family: 'Montserrat';
+    color: #fff;
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.unitET{
+    font-family: 'Montserrat';
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+.EventComponentContent button{
+    width: 200px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #36454f;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #36454f;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.EventComponentContent button:hover{
+
+    background-color: #1A9BF7;
+    border: 1px solid #1A9BF7;
+}
+
+
+.eventStatusActive{
+    padding: 8px;
+    background-color: #26b30d;
+    width: 120px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eventStatusExpires{
+    padding: 8px;
+    background-color: #FF0800;
+    width: 120px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eventStatusComing{
+    padding: 8px;
+    background-color: #FFBF00;
+    width: 120px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eventStatusActive p{
+    color: white;
+    font-weight: bold;
+}
+.eventStatusExpires p{
+    color: white;
+    font-weight: bold;
+}
+.eventStatusComing p{
+    color: white;
+    font-weight: bold;
+}

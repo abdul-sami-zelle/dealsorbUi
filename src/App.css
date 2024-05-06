@@ -1,0 +1,303 @@
+body{
+  background-color: #ECECEC !important;
+}
+.product--image {
+  width: 100%;
+  height: 10em;
+  object-fit: cover;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 170px;
+  height: 220px;
+  margin: auto 1rem;
+  text-align: center;
+  font-family: arial;
+}
+
+.name1{
+  font-size: 16px;
+  color: black;
+  font-weight: normal;
+}
+
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 150px 150px;
+  grid-gap: 10px;
+}
+
+.item {
+  color: white;
+  padding: 1.5em 0;
+  font-size: 2em;
+}
+
+.a {
+  background: #0d9;
+}
+
+.b {
+  background: #d90;
+}
+
+.c {
+  background: #9d0;
+}
+
+.d {
+  background: #90d;
+}
+
+.e {
+  background: #d09;
+}
+
+.f {
+  background: #09d;
+}
+
+.a {
+  grid-area: 4 ;
+}
+
+#headphoneImg{
+  height: 400px;
+  width: 400px;
+  display: block;
+}
+
+
+
+
+@media screen and (max-width: 1300px) {
+  #headphoneImg{
+    height: 350px;
+    width: 350px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1164px) {
+  #headphoneImg{
+    height: 300px;
+    width: 300px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  #headphoneImg{
+    height: 270px;
+    width: 270px;
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  #headphoneImg{
+    display: none;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 1180px) {
+  .animatedTextSlider{
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .animatedTextSlider{
+    font-size: 70px !important;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .animatedTextSlider{
+    font-size: 60px !important;
+  }
+}
+@media screen and (max-width: 883px) {
+  .animatedTextSlider{
+    font-size: 50px !important;
+  }
+}
+@media screen and (max-width: 736px) {
+  .animatedTextSlider{
+    font-size: 35px !important;
+  }
+}
+@media screen and (max-width: 520px) {
+  .animatedTextSlider{
+    font-size: 25px !important;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+  .carouselImg{
+    height:400px;
+    width:100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .carouselImg{
+    height:300px;
+    width:100%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .carouselImg{
+    height:250px;
+    width:100%;
+  }
+}
+
+
+
+
+
+.couponPageContent{
+  background-color: white;
+  padding: 20px;
+  text-align: justify;
+  color: #1F1F1F;
+}
+
+.couponPageContent p{
+  font-weight: 400;
+  font-size: 14px;
+  color: #1F1F1F;
+}
+.couponPageContent h1{
+  font-weight: 500;
+  font-size: 21px;
+  color: #1F1F1F;
+}
+
+.couponPageContent h2{
+  font-weight: 700 !important;
+  font-size: 18px;
+  color: #1F1F1F;
+}
+.couponPageContent h4{
+  font-weight: 500;
+  font-size: 14px;
+  color: #374165;
+  text-decoration: underline dotted #374165;    
+}
+.couponPageContent h6{
+  font-weight: 400;
+  font-size: 14px;
+  color: #1F1F1F;
+}
+.imgSectionplusContent{
+  display: flex;
+  flex-direction: column;
+  height: 50vh
+}
+.imgContent{
+  width: 100%;
+  /* height: 100px; */
+  background-image: url("https://img.freepik.com/free-vector/flat-sale-banner-with-photo_23-2149026968.jpg?w=1380&t=st=1693021570~exp=1693022170~hmac=15fbcfcb5cb810fb70e00bdcb5faadb7bf07ab815b91ac15f536909abcf07b99");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  flex-grow: 50;
+  margin-bottom: 10px;
+}
+
+
+
+.lastInstructions{
+  height: 625px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+
+.lastInstructionsImg1{
+  width: 340px;
+  height: 160px;
+  flex-shrink: 0;
+  margin: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/zelleclients.appspot.com/o/step-1-copy-coupon-code-v1%201.png?alt=media&token=af5ec3bd-daec-4e88-9376-bceeafceddd1");
+}
+.lastInstructionsImg2{
+  margin: 20px;
+  width: 340px;
+  height: 160px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/zelleclients.appspot.com/o/step-2-apply-coupon-code-v1%201.png?alt=media&token=f381044d-7550-48d9-9ca6-a4dc4a2808e2");
+}
+.lastInstructionsImg3{
+  margin: 20px;
+  width: 340px;
+  height: 160px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/zelleclients.appspot.com/o/step-1-copy-coupon-code-v1%201.png?alt=media&token=af5ec3bd-daec-4e88-9376-bceeafceddd1");
+}
+
+
+.cartt {
+  position: fixed;
+  top: 0;
+  right: 0px; /* Initial position, outside the viewport */
+  height: 100%;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  z-index: 9999;
+  transition: right 0.3s ease-in-out; /* Add transition for smooth animation */
+}
+
+.cartt.visible {
+  right: 0; /* Show the container by translating it back to the viewport */
+}
+
+
+
+.mobiViewCategories{
+  display: none;
+}
+.mobViewContentLandingPage1{
+  display: none;
+}
+
+@media screen and (max-width: 660px) {
+  .mobViewContentLandingPage1{
+    display: block;
+  }
+  .mobiViewCategories{
+    display: flex;
+  }
+  .webViewCategories{
+    display: none;
+  }
+}
+
+
+/* .mainClass1{
+  height: 100vh;
+  overflow-y: hidden !important;
+} */

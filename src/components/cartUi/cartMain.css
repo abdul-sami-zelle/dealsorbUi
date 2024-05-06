@@ -1,0 +1,138 @@
+.cartItems{
+    display: flex;
+    height: 150px;
+}
+.imgCartItem{
+    width: 32%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contentCartItem{
+    width: 68%;
+    height: 120px;
+    padding-right: 10px;
+}
+
+.contentCartItem h1{
+    color: black;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+.contentCartItem h2{
+    color: black;
+    font-size: 10px !important;
+    font-weight: bold;
+}
+
+.cart-container{
+    background-color: blueviolet;
+}
+
+@media screen and (max-width: 1450px) {
+    .btnsCart{
+        flex-direction: column !important;
+    }
+    .VCbtn{
+        width: 250px !important;
+        height: 50px !important;
+        margin-top: 15px !important;
+        font-size: 16px !important;
+    }
+    .CSbtn{
+        width: 250px !important;
+        height: 50px !important;
+        font-size: 16px !important;
+    }
+    .subTotalh1{
+        margin-top: 15px !important;
+    }
+}
+
+
+@media screen and (max-height: 700px) {
+    .VCbtn{
+        width: 250px !important;
+        height: 35px !important;
+        margin-top: 15px !important;
+        font-size: 16px !important;
+    }
+    .CSbtn{
+        width: 250px !important;
+        height: 35px !important;
+        font-size: 16px !important;
+    }
+    .subTotalh1{
+        margin-top: 15px !important;
+    }
+    .sideCartUiSection1{
+        height: 15% !important;
+    }
+    .sideCartUiSection2{
+        height: 60% !important;
+    }
+    .sideCartUiSection3{
+        height: 20% !important;
+    }
+}
+
+
+
+@media screen and (max-height: 595px) {
+    /* .VCbtn{
+        width: 250px !important;
+        height: 35px !important;
+        margin-top: 15px !important;
+        font-size: 16px !important;
+    }
+    .CSbtn{
+        width: 250px !important;
+        height: 35px !important;
+        font-size: 16px !important;
+    }
+    .subTotalh1{
+        margin-top: 15px !important;
+    } */
+    .imgCartItem{
+        height:10px !important;
+        width:10px !important;
+    }
+    .sideCartUiSection1{
+        height: 18% !important;
+    }
+    .sideCartUiSection2{
+        height: 57% !important;
+    }
+    .sideCartUiSection3{
+        height: 20% !important;
+    }
+}
+@media screen and (max-width: 595px) {
+    /* .VCbtn{
+        width: 250px !important;
+        height: 35px !important;
+        margin-top: 15px !important;
+        font-size: 16px !important;
+    }
+    .CSbtn{
+        width: 250px !important;
+        height: 35px !important;
+        font-size: 16px !important;
+    }
+    .subTotalh1{
+        margin-top: 15px !important;
+    } */
+    .imgCartItem{
+        height:90px !important;
+        width:90px !important;
+    }
+    .contentCartItem{
+        margin-left: 20px !important;
+    }
+    .cartItems{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+  
+}

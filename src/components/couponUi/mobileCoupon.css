@@ -1,0 +1,283 @@
+.mainCouponMobileDiv{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    /* background-image:linear-gradient(90deg, rgba(16,80,126,1) 5%, rgba(26,155,247,1) 46%, rgba(16,80,126,1) 97%); */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.leftCouponPart{
+    height: 90%;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftCouponPart img{
+    height: 80px !important;
+    width: 80px !important;
+    
+}
+.rightCouponPart{
+    height: 92%;
+    width: 64%;
+    background-color: white;
+    border-radius: 10px;
+    margin:4.5px 4.5px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+.verified img{
+    height: 30px;
+    width: 30px;
+}
+.verified{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.rightCouponPart h1{
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+    margin: 4px;
+}
+.rightCouponPart h2{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    margin: 4px;
+}
+.rightCouponPart h3{
+    padding: 0px;
+    font-size: 12px;
+    color: grey;
+    font-weight: normal;
+    margin: 4px;
+}
+.topCircleMobile{
+    position: absolute;
+    top: -14px;
+    left: 90px;
+    height: 20px;
+    width: 20px;
+    background-color: #ECECEC;
+    border-radius: 50px;
+    /* box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1); */
+    z-index: 2;
+}
+
+.bottomCircleMobile{
+    position: absolute;
+    bottom: -14px;
+    left: 90px;
+    height: 20px;
+    width: 20px;
+    background-color: #ECECEC;
+    border-radius: 50px;
+    /* box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1); */
+    z-index: 2;
+    
+}
+.dashedVerticalLine{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    height: 82%;
+    width: 2px;
+    border-left: 2px dashed #ECECEC;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainnnn{
+    height: 160px;
+    width: 130px;
+}
+.mainCouponMobileDiv2{
+    position: absolute;
+    height: 160px;
+    width: 130px;
+    /* background-image:linear-gradient(90deg, rgba(16,80,126,1) 5%, rgba(26,155,247,1) 46%, rgba(16,80,126,1) 97%); */
+    background-color: #666666;
+    border-radius: 10px;
+    box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.topCouponPart{
+    height: 54%;
+    width: 92%;
+    background-color: white;
+    border-radius: 10px;
+    margin:5px 2px 2px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.topCouponPart img{
+    height: 80px !important;
+    width: 80px !important;
+}
+.bottomCouponPart{
+    height: 32%;
+    width: 92%;
+    background-color: white;
+    border-radius: 10px;
+    margin:10px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+.bottomCouponPart h1{
+    font-size: 10px;
+    color: black;
+    font-weight: bolder;
+    margin: 4px;
+}
+.bottomCouponPart h2{
+    font-size: 12px;
+    color: black;
+    font-weight: bolder;
+    margin: 0px;
+}
+.bottomCouponPart h3{
+    font-size: 10px;
+    color: grey;
+    font-weight: bold;
+    margin: 4px;
+}
+
+.leftCircleMobile2{
+    position: absolute;
+    bottom: 54px;
+    left: -12px;
+    height: 14px;
+    width: 18px;
+    background-color: #ECECEC;
+    border-radius: 50px;
+    /* box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1); */
+    z-index: 2;
+}
+
+.rightCircleMobile2{
+    position: absolute;
+    bottom: 54px;
+    right: -12px;
+    height: 14px;
+    width: 18px;
+    background-color: #ECECEC;
+    border-radius: 50px;
+    /* box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1); */
+
+    z-index: 2;
+}
+
+.dashedhorizontalLine{
+    position: absolute;
+    left: 7px;
+    right: 10px;
+    bottom: 52px;
+    height:10px ;
+    width:92% ;
+    border-top: 1.5px dashed #ECECEC;
+    z-index: 1;
+}
+
+.couponOfferMob{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+border-radius: 3px;
+    height: 20px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    font-size: 8px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomCouponPartSec1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottomCouponPartSec1 Button{
+    height: 20px;
+    width: 20px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 8px;
+    background-color: #ECECEC;
+}

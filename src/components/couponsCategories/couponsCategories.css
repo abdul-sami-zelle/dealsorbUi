@@ -1,0 +1,227 @@
+.mainCouponCate{
+    height: 500px;
+    /* height: 600px; */
+    width: 245px;
+    background-color: white;
+border-radius: 11px 11px 5px 5px;
+    /* display: flex !important;
+    flex-direction: column !important; */
+    position: relative;
+  
+    margin-top: 30px;
+
+}
+
+.divv1{
+    height: 420px;
+    width: 245px;
+    overflow-y: scroll;
+    background-color: white !important;
+    /* margin-bottom: 15px;
+    margin-left: 10px; */
+}
+
+
+.categoriesHeaderCoupon{
+    width: 100%;
+    height: 60px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.categoriesHeaderCoupon img{
+    height: 16px;
+    width: 16px;
+}
+.categoriesHeaderCoupon h1{
+    font-size: 14px;
+    color: #36454F;
+    font-weight: 700;
+    margin: 0px;
+    margin-left: 5px;
+}
+.mainCouponUI{
+    position: absolute;
+    height: 80px;
+    width: 220px;
+    /* background-image:linear-gradient(90deg, rgba(16,80,126,1) 5%, rgba(26,155,247,1) 46%, rgba(16,80,126,1) 97%); */
+    /* background-color: #fff; */
+    border-radius: 10px;
+    box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.leftCouponPartUI{
+    height: 90%;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftCouponPartUI img{
+    margin-top: 5px;
+    margin-left: -2px;
+    height: 60px !important;
+    width: 60px !important;
+    border-radius: 10px;
+    
+}
+.rightCouponPartUI{
+    height: 92%;
+    width: 64%;
+    background-color: white;
+    border-radius: 10px;
+    margin:4.5px 4.5px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+.verified img{
+    height: 30px;
+    width: 30px;
+}
+.verified{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.rightCouponPartUI h2{
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    margin: 0px;
+}
+.rightCouponPartUI h3{
+    padding: 0px;
+    font-size: 8px;
+    color: grey;
+    font-weight: normal;
+    margin: 0px;
+}
+.topCircleMobileUI{
+    position: absolute;
+    top: -14px;
+    left: 70px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50px;
+    /* box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1); */
+    z-index: 2;
+}
+
+.bottomCircleMobileUI{
+    position: absolute;
+    bottom: -14px;
+    left:70px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50px;
+    /* box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1); */
+    z-index: 2;
+    
+}
+.dashedVerticalLineUI{
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    height: 82%;
+    width: 2px;
+    border-left: 2px dashed #ECECEC;
+    z-index: 1;
+}
+
+.loaderCouponCat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader111{
+    height: 100px;
+    width:200px ;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, #eee 40%, #fafafa 50%, #eee 60%);
+    background-size: 300%;
+    background-position-x: 100%;
+    animation: shimmer 5s infinite linear;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.mainCouponUiDiv{
+    cursor: pointer;
+    height: 100px;
+    width:200px ;
+    background-color: #4C9BF7;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: background-color 2s ease-out 100ms;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+
+.topPartCouponUi2{
+    height: 60px;
+    width:200px ;
+    background-color: #ECECEC;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+}
+
+.bottomPartCouponUi2{
+    height: 40px;
+    width:220px ; 
+}
+.imgSec{
+    width: 60px;
+}
+.imgSec img{
+    margin-top:5px ;
+    margin-left: 5px;
+    height: 52px;
+    width: 52px;
+    
+}
+.catCouponUi2Name{
+    width: 140px;
+}
+
+.catCouponUi2Name h1{
+    width: 130px;
+    font-size: 16px !important;
+    color: rgb(91, 91, 91);
+    font-weight: 700;
+    text-align: start;
+    margin-top:10px;
+    margin-left: 10px;
+}
+
+
+.bottomPartCouponUi2 h1{
+    width:200px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.mainCouponUiDiv:hover{
+    background-color: #36454F;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

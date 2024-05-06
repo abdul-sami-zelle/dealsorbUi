@@ -1,0 +1,988 @@
+
+.mainCheckoutBanner{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/zelleclients.appspot.com/o/checkoutBanner.png?alt=media&token=2bdb3840-9bdd-49ae-a786-5929ff800d7a");
+    background-color: #cccccc;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.headingCheckoutBanner h1{
+    color: red;
+    padding: 15px;
+}
+
+
+
+
+
+
+.selectorMainContainerCheckout{
+    /* width: 100%; */
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.selectorMainContainerCheckout img{
+    height: 45px;
+    width: 45px;
+}
+
+
+.seeCart{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    border-right: 1px solid grey;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.seeCart_content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.seeCart_content h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.seeCart_content p{
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+}
+
+.checkOut_details
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-right: 1px solid grey;
+}
+.checkOut_details_content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.checkOut_details_content h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.checkOut_details_content p{
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+}
+
+
+.orderPlaced{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.orderPlaced_content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.orderPlaced_content h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.orderPlaced_content p{
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+}
+
+
+.tabsMainCheckout_icon img{
+    height: 45px;
+    width: 45px;
+}
+
+
+.tabsMainCart_icon_a{
+    display: none;
+}
+
+
+.seeCart:hover{
+    background-color: #1A9BF7;
+    
+}
+
+.seeCart:hover .tabsMainCart_icon{
+    display: none;  
+
+}
+
+.seeCart:hover .tabsMainCart_icon_a{
+    display: block;  
+}
+
+
+.seeCart:hover  h1{
+    color: white !important;
+}
+
+.seeCart:hover p{
+    color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tabsMainCheckout_icon_a{
+    display: none;
+}
+
+
+.checkOut_details:hover{
+    background-color: #1A9BF7;
+    
+}
+
+.checkOut_details:hover .tabsMainCheckout_icon{
+    display: none;  
+
+}
+
+.checkOut_details:hover .tabsMainCheckout_icon_a{
+    display: block;  
+}
+
+
+.checkOut_details:hover  h1{
+    color: white !important;
+}
+
+.checkOut_details:hover p{
+    color: white !important;
+}
+
+
+
+
+
+
+.tabsMainorderplaced_icon_a{
+    display: none;
+}
+
+
+.orderPlaced:hover{
+    background-color: #1A9BF7;
+    
+}
+
+.orderPlaced:hover .tabsMainorderplaced_icon{
+    display: none;  
+
+}
+
+.orderPlaced:hover .tabsMainorderplaced_icon_a{
+    display: block;  
+}
+
+
+.orderPlaced:hover  h1{
+    color: white !important;
+}
+
+.orderPlaced:hover p{
+    color: white !important;
+}
+
+
+
+
+
+
+
+
+/* CART STYLING */
+
+
+
+
+.checkout_cartItems{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: #cccccc; */
+    padding-bottom: 30px;
+    border-bottom: 1px solid grey;
+
+    
+}
+
+
+.imageBoundary{
+    padding: 10px;
+    border: 1px solid grey !important;
+    border-radius: 10px;
+}
+
+.cartPricingSection2a{
+    padding: 10px;
+}
+
+.checkout_contentCartItem{
+    margin-left: 15px;
+}
+
+.checkout_contentCartItem h1{
+    color: #1A9BF7;
+    font-size: 18px;
+    font-weight: 500;
+}
+.checkout_contentCartItem  h2{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.cartSection2{
+    display: flex;
+    width: 100%;
+}
+
+.cartItemSection2{
+    width: 65%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    overflow: auto;
+}
+.cartPricingSection2{
+    width: 35%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+   
+}
+
+.mainHeadingSection2{
+    display: flex;
+}
+
+.mainHeadingSection2 h1{
+    color: black;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.mainHeadingSection2 img{
+   height: 30px;
+   width: 30px;
+}
+
+
+.cartPricingCoupon{
+    padding:10px;
+    border:0;
+    border-radius: 5px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    margin-top: 5px;
+    width:200px;
+    padding:8px;
+    border-radius: 0px;
+}
+
+.cartPricingSectionDetails{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.cartPricingSectionDetails h2 {
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.cartPricingSectionDetails h3 {
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.orderTotal{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;  
+}
+
+.orderTotal h2 {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.orderTotal h3 {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.label_Button{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+fieldset{
+    border: 1px solid black;
+    padding: 15px ;
+    
+}
+
+.expressCheckoutHeading{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.cardMainBody{
+    height: 40px;
+    width: 200px;
+    background-color: #29A9C8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-left: 5px;
+}
+
+
+.cardMethods{
+    display: flex;
+
+}
+
+
+legend{
+    font-size: 18px !important;
+    font-weight: 500;
+    color: black;
+}
+
+.section1CI{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section1CI h1{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+.section1CI p{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+
+.section2CI h3{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;  
+}
+
+
+
+.checkoutForm{
+    padding: 10px;
+}
+
+
+.signup-text-input {
+    padding:10px;
+    border:0;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    margin-top: 5px;
+  }
+
+.checkBoxEmail{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.emailNoti{
+    margin-left: 3px;
+    margin-top: 13px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.section2SA input{
+    padding:10px;
+    border:0;
+    width:100%;
+    border-radius: 5px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    /* margin-right: 10px; */
+
+}
+.section2SA{
+   
+}
+.section1SA h1{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.section3SA{
+    display: flex;
+  
+}
+
+.section3SA input{
+    padding:10px;
+    border:0;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+.section4SA{
+ 
+}
+
+.section4SA input{
+    padding:10px;
+    border:0;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.section5SA{
+  
+}
+
+
+.section6SA{
+    display: flex;
+}
+
+.section6SA input{
+    padding:10px;
+    border:0;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+
+
+.summaryOrderConfirm{
+    width: 100% !important;
+    background-color: white !important;
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+
+
+.summaryOrderConfirmName h1{
+    font-size: 21px;
+    color: #1A9BF7;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.summaryOrderConfirmAddress h1{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    text-align: center;   
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.summaryOrderConfirmOtherDataCenter{
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+}
+.summaryOrderConfirmOtherDataH{
+    padding: 20px;
+}
+.summaryOrderConfirmOtherDataH h1{
+  
+    font-size: 16px;
+    color: #808080;
+    font-weight: bold;
+    text-align: center; 
+}
+
+.summaryOrderConfirmOtherDataH h2{
+
+    font-size: 16px;
+    color: #1A9BF7;
+    font-weight: bold;
+    text-align: center; 
+}
+
+.summaryOrderConfirmSummary h1{
+    font-size: 22px;
+    color: #1A9BF7;
+    font-weight: bold;
+    text-align: center;
+}
+.summaryOrderConfirmSummaryIcon{
+    text-align: center;
+}
+.summaryOrderConfirmSummaryIcon img{
+    height: 60px;
+    width: 60px;
+}
+
+
+
+.tabs-wrapper.fixed {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    left: 0px;
+
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+    z-index: 1;
+  
+  }
+
+  .tabs-wrapper{
+    display: none !important;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .selectorMainContainerCheckout img{
+        height: 40px;
+        width: 40px;
+    }
+    .mainHeadingSection2 h1{
+        color: black;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    
+    .mainHeadingSection2 img{
+       height: 28px;
+       width: 28px;
+    }
+    .cartPricingCoupon{
+        width:180px;
+    }
+    .label_Button{
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .summaryOrderConfirmSummaryIcon img{
+        height: 55px;
+        width: 55px;
+    }
+    .summaryOrderConfirmSummary h1{
+        font-size: 20px;
+        color: #1A9BF7;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 1050px) {
+    .selectorMainContainerCheckout img{
+        height: 38px;
+        width: 38px;
+    }
+    .mainHeadingSection2 h1{
+        color: black;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    
+    .mainHeadingSection2 img{
+       height: 26px;
+       width: 26px;
+    }
+    .cartPricingCoupon{
+        width:160px !important;
+    }
+    .label_Button{
+        color: white;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .summaryOrderConfirmSummaryIcon img{
+        height: 50px;
+        width: 50px;
+    }
+    .summaryOrderConfirmSummary h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .summaryOrderConfirmName h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .cartPricingCoupon{
+        width:150px !important;
+    }
+    .label_Button{
+        color: white;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .summaryOrderConfirmSummaryIcon img{
+        height: 45px;
+        width: 45px;
+    }
+    .summaryOrderConfirmSummary h1{
+        font-size: 20px;
+        color: #1A9BF7;
+        font-weight: 700;
+        text-align: center;
+    }
+    .checkout_contentCartItem h1{
+        color: #1A9BF7;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .checkout_contentCartItem  h2{
+        color: black;
+        font-size: 11px;
+        font-weight: bold;
+    }
+}
+
+
+
+@media screen and (max-width: 999px) {
+
+    .distance1{
+        height: 20px;
+    }
+    .cartSection2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .cartItemSection2{
+        width: 100%;
+    }
+    
+    .cartPricingSection2{
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .seeCart_content h1{
+        font-size: 15px;
+    }
+    .checkOut_details_content h1{
+        font-size: 15px;
+    }
+    .orderPlaced_content h1{
+        font-size: 15px;
+    }
+    .orderPlaced_content p{
+        font-size: 10px;
+    }
+    .summaryOrderConfirmSummaryIcon img{
+        height: 42px;
+        width: 42px;
+    }
+    .summaryOrderConfirmSummary h1{
+        font-size: 19px;
+        color: #1A9BF7;
+        font-weight: 700;
+        text-align: center;
+    }
+    .summaryOrderConfirmName h1{
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .tabs-wrapper{
+        display: block !important;
+    }
+    .desktopView{
+        display: none !important;
+    }
+}
+
+
+@media screen and (max-width: 899px) {
+    .seeCart_content h1{
+        font-size: 12px;
+    }
+    .seeCart_content p{
+        font-size: 10px;
+    }
+    .checkOut_details_content h1{
+        font-size: 12px;
+    }
+    .checkOut_details_content p{
+        font-size: 10px;
+    }
+    .orderPlaced_content h1{
+        font-size: 12px;
+    }
+    .orderPlaced_content p{
+        font-size: 10px;
+    }
+    .summaryOrderConfirmSummaryIcon img{
+        height: 40px;
+        width: 40px;
+    }
+    .summaryOrderConfirmName h1{
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .imageBoundary{
+        padding: 10px;
+        border: 0px solid grey !important;
+        border-radius: 10px;
+    }
+}
+
+
+@media screen and (max-width: 799px) {
+    
+    .selectorMainContainerCheckout img{
+        height: 32px;
+        width: 32px;
+    }
+    .seeCart_content h1{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .seeCart_content p{
+        font-size: 0px;
+    }
+    .checkOut_details_content h1{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .checkOut_details_content p{
+        font-size: 0px;
+    }
+    .orderPlaced_content h1{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .orderPlaced_content p{
+        font-size: 0px;
+    }
+    .summaryOrderConfirmAddress h1{
+        font-size: 16px;
+
+        text-align: 600;   
+    }
+    .checkout_contentCartItem h1{
+        color: #1A9BF7;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .checkout_contentCartItem  h2{
+        color: black;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width: 630px) {
+    .seeCart{
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 50px;
+    }
+    .checkOut_details{
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 50px;
+    }
+    .orderPlaced{
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 50px;
+    }
+    .selectorMainContainerCheckout img{
+        height: 28px;
+        width: 28px;
+    }
+    .seeCart_content h1{
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    .seeCart_content p{
+        font-size: 0px;
+    }
+    .checkOut_details_content h1{
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    .checkOut_details_content p{
+        font-size: 0px;
+    }
+    .orderPlaced_content h1{
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    .orderPlaced_content p{
+        font-size: 0px;
+    }
+    .summaryOrderConfirmName h1{
+        font-size: 18px;
+        font-weight: normal;
+    }
+    .summaryOrderConfirmAddress h1{
+        font-size: 16px;
+
+        text-align: 600;   
+    }
+    .summaryOrderConfirmOtherDataH{
+        padding: 10px;
+    }
+    .summaryOrderConfirmOtherDataCenter{
+        border-left: 0px solid #808080;
+        border-right: 0px solid #808080;
+    }
+    .section1CI h1{
+        font-size: 15px;
+    }
+    .section1CI p{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .section1CI p span{
+        font-size: 10px !important;
+        font-weight: 500;
+    }
+    legend{
+        font-size: 15px !important;
+    }
+    .section1SA h1{
+        font-size: 15px;
+    }
+    
+}
+
+
+@media screen and (max-width: 450px) {
+    .seeCart{
+        padding-left: 8px;
+        padding-right: 8px;
+        height: 45px;
+        width: 110px;
+    }
+
+    .checkOut_details{
+        padding-left: 8px;
+        padding-right: 8px;
+        height: 45px;
+        width: 100px;
+    }
+    .orderPlaced{
+        padding-left: 8px;
+        padding-right: 8px;
+        height: 45px;
+        width: 110px;
+    }
+    .selectorMainContainerCheckout img{
+        height: 25px;
+        width: 25px;
+    }
+    .seeCart_content h1{
+        font-size: 12px;
+        margin-top: 9px;
+    }
+.checkOut_details_content h1{
+        font-size: 12px;
+        margin-top: 9px;
+    }
+.orderPlaced_content h1{
+        font-size: 12px;
+        margin-top: 9px;
+    }
+    .distance2{
+        width: 5px !important;
+    }
+    .checkout_contentCartItem h1{
+        color: #1A9BF7;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}

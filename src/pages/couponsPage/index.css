@@ -1,0 +1,277 @@
+
+.swiper {
+    width: 100%;
+    /* height: 100%; */
+    /* padding-top: 50px;
+    margin-bottom: 50px; */
+    /* background-color: #BB4545; */
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width:200px;
+  }
+  #app { height: 50% }
+
+
+
+
+
+
+  .mySwiper {
+    width: 100%;
+    /* height: 100%; */
+  }
+  
+  .swipeSlide2 {
+    height: 100% !important;
+    text-align: center;
+    font-size: 18px;
+    background: #fff !important;
+    
+    /* Center slide text vertically */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  .swipeSlide2 img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .abc{
+    height: 40% !important;
+  }
+  .ourSponsers{
+    font-size: 45px;
+  font-weight: 700;
+  background-image: linear-gradient(to left, #025691, #1A9BF7);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  }
+
+
+
+
+
+  
+
+  .couponBgImg{
+    /* display: flex; */
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/zelleclients.appspot.com/o/banner1.jpg?alt=media&token=e3b1b3ba-799b-4c46-88c5-27d037ffcb68');
+    background-size: cover; /* Adjusts the image size to cover the container */
+    background-repeat: no-repeat;
+    background-position: center center; /* Centers the image */
+    height: 400px; /* Set the specific height you want */
+  }
+  .couponBanner{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/zelleclients.appspot.com/o/couponeDealBanner.jpg?alt=media&token=6cb210f3-8d26-4ead-8aa5-b1cde781a6df');
+    background-size: cover; /* Adjusts the image size to cover the container */
+    background-repeat: no-repeat;
+    background-position: center center; /* Centers the image */
+    height: 100px; /* Set the specific height you want */
+    width: 80%;
+  }
+  
+  .mainCardCoupon{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  .couponCard{
+    height: 180px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+   
+    /* box-shadow: rgba(54, 69, 79, 0.2) 0px 7px 29px 0px; */
+  }
+  .right{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #ECECEC;
+    position: absolute;
+    right: -7px;
+    bottom: 40px;
+  }
+
+  .left{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #ECECEC;
+    position: absolute;
+    left: -7px;
+    bottom: 40px;
+  }
+  .dashedLine {
+    border: none;
+    border-top: 2px dotted #1F1F1F;
+    color: #fff;
+    height: 1px;
+    width: 88%;
+    position: absolute;
+  
+    bottom: 45px;
+  }
+  .brandLogo{
+    margin-top: 20px;
+  }
+  .brandLogo img{
+    height: 80px;
+    width: 80px;
+  }
+  .off{
+    color: #1F1F1F;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .number{
+    height: 30px;
+    width: 60%;
+    background-color:#F5F5F5 ;
+    position: absolute;
+    bottom: 8px;
+    
+  
+  }
+  
+  .subNumber{
+    height: 30px;
+    width: 100%;
+    background-color: #1A9BF7;
+    border: none;
+    border: 1px dotted #1F1F1F;
+    position: relative;
+    bottom: px;
+    transition: width 1s ease-in-out;
+    z-index: 100;
+  }
+  .mainNumber{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    bottom: 10px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .subNumber:hover{
+    width: 60%;
+  }
+
+  .mainShopCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .shopCard{
+    height: 170px;
+    width: 180px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+    align-items: center;
+    border: 1px solid #DDDDDD;
+  }
+  .shopCard:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .storeCardLoader{
+    height: 170px;
+    width: 180px;
+    border-radius: 2px;
+    background: linear-gradient(-45deg, #fff 40%, #fafafa 50%, #fff 60%);
+    background-size: 300%;
+    background-position-x: 100%;
+    animation: shimmer 4s infinite linear;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+  .offer{
+    margin-top: 10px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #BB4545;
+  }
+  .shopLink{
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    text-decoration: underline dotted black;   
+    cursor: pointer; 
+  }
+
+
+
+
+
+
+
+
+
+
+  .swiper3 {
+    width: 100%;
+    height: 100% !important;
+  }
+  
+  .swiper-slide3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    height: 100%;
+  }
+  .swiper-slide3 img{
+    height: 350px;
+    width: 90%;
+  }
+  
+  
+
+
+
+  .allStoreBanner{
+    margin-top: 0px;
+    height: 200px;
+    width: 100%;
+    background-image: url('https://texcovery.com/upload/media/entries/2020-11/25/86-entry-0-1606338732.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+
+  .allCouponDealsHeading{
+    margin-top: 15px;
+    font-size: 21px;
+    color: black;
+    font-weight: bold;
+  }

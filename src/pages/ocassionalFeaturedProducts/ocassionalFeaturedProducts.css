@@ -1,0 +1,281 @@
+.mainCategoryBanner{
+  background-image: url("https://i.pinimg.com/originals/39/5c/bd/395cbdc769cbbc96a8d123a5f1f16e80.jpg");
+  background-color: #cccccc;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.tabsMainCategory{
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.tabsMainCategory_icon img{
+    height: 45px;
+    width: 45px;
+}
+
+.rfq{
+    display: flex;
+    align-items: center;
+    width: 33.33%;
+    justify-content: center;
+    border-right: 1px solid grey;
+}
+.rfq_content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.rfq_content h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.rfq_content p{
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+.rts
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+    border-right: 1px solid grey;
+}
+.rts_content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.rts_content h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.rts_content p{
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+}
+
+
+.ls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+}
+.ls_content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.ls_content h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.ls_content p{
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+}
+
+
+
+.categories_section{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    padding: 15px;
+    
+}
+
+.categoryHeadingView{
+    background-color: white;
+    padding: 5px;
+}
+.categoryHeadingView:hover,
+.categoryHeadingView:hover h2{
+    color: white;
+    background-color:#1A9BF7 ;
+    cursor: pointer;
+}
+
+
+.selected{
+    color: white !important;
+    background-color:#1A9BF7 !important;
+    cursor: pointer !important;
+    padding: 50px !important;
+    border: 4px solid red !important;
+}
+
+.categoryImg img{
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #F2F2F2;
+    height:40px;
+    width:40px;
+
+}
+
+.categoryHeadingView h2{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    padding-top: 8px;
+    margin-left: 10px;
+}
+
+.categoryHeadingView{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.categoryHeadingView_a{
+    display: flex;
+}
+
+
+.divider{
+    height: 1px;
+    width: 100%;
+    background-color: #F2F2F2;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.sub_heading{
+    color: black;
+    font-size: 20px;
+
+}
+
+
+.categories_section_b{
+    margin-left: 20px;
+}
+
+.mobileViewCategories{
+    background-color: white;
+    display: none;
+    width: auto;
+    border-radius: 10px;
+
+}
+
+.closeModalBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+ .closeModalBtn h1{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+ }
+
+ .tabs-wrapper.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    margin-bottom: -20px !important;
+  }
+
+  .tabs-wrapper{
+    display: none;
+  }
+  
+
+
+@media screen and (max-width: 830px) {
+    .tabsMainCategory_icon img{
+        height: 35px;
+        width: 35px;
+    }
+    .rfq_content h1{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .rts_content h1{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .ls_content h1{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .sub_heading{
+        font-size: 16px;
+    }
+    .categoryImg img{
+        padding: 3px;
+        height:30px;
+        width:30px;    
+    }
+    .categoryHeadingView h2{
+        font-size: 12px;
+        font-weight: 500;
+        color: black;
+        padding-top: 8px;
+        margin-left: 10px;
+    }
+    .forward_icon_cat img{
+        height: 20px;
+        width: 20px;
+    }
+}
+
+.webViewCategorySec1{
+    display: block;
+}
+
+@media screen and (max-width: 660px) {
+    .webViewCategorySec1{
+        display: none;
+    }
+    .categories_section{
+        display: none;
+    }
+    .tabs-wrapper{
+        display: block;
+    }
+    .mobileViewCategories{
+        display: block;
+    }
+      
+}

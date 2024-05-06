@@ -1,0 +1,70 @@
+.mainPopup2Container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* Ensure the modal is on top of everything else */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+}
+
+
+.mainPopUpBody2{
+    height: 350px;
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 10px 0px 10px;
+    position: relative;
+}
+
+.closeBtnPopup2{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.mainPopUpBody2 h1{
+    font-family: 'Montserrat';
+    color: #36454F;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.mainPopUpBody2 p{
+    font-family: 'Montserrat';
+    color: #36454F;
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+    margin: 20px 30px 0px 30px;
+}
+
+.imgIcon img{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.barLine{
+    height: 5px;
+    width: 30%;
+    border-radius: 20px;
+    background-color: gold;
+    margin-top: 30px;
+}

@@ -1,0 +1,32 @@
+@media screen and (max-width: 850px) {
+    .mainCategoryContainer{
+        height: 200px !important;
+        width: 150px !important;
+    }
+    .hoveredCategorySubContainer{
+        height: 40px !important;
+        width: 140px !important;
+        margin: 5px !important;
+    }
+    .hoveredCategorySubContainer:hover{
+        height: 100px !important;
+        width: 140px !important;
+    }
+  }
+
+
+  @media screen and (max-width: 525px) {
+    .mainCategoryContainer{
+        height: 150px !important;
+        width: 110px !important;
+    }
+    .hoveredCategorySubContainer{
+        height: 20px !important;
+        width: 90px !important;
+        margin: 5px !important;
+    }
+    .hoveredCategorySubContainer:hover{
+        height: 100px !important;
+        width: 100px !important;
+    }
+  }

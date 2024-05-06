@@ -1,0 +1,52 @@
+.storesBanners{
+   position: relative;
+}
+
+.storesBanners .imageSection{
+   height:450px;
+   width:100%;
+   background-size:450px 100%;
+   background-repeat: no-repeat;
+}
+
+.visitStoreLink button{
+   position: absolute;
+   top: 15px;
+   right: 30px;
+   background-color: white;
+   color: black;
+   padding: 4px 8px;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 14px;
+   font-weight: bold;
+   font-family: 'Montserrat';
+   border: 0px solid transparent;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.visitStoreLink button img{
+   height: 12px;
+   width: 12px;
+   margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+    .mainSubCarousel{
+       height: 80% !important;
+    }
+  }
+

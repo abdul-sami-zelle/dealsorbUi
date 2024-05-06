@@ -1,0 +1,340 @@
+.mainProductCardContainer{
+    height: 265px;
+    width: 200px;
+    background-color: white;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 10px;
+}
+.img-sec{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.mainProductDisplayImg{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 10px;
+    position:relative;
+    background-size: cover;
+    background-position:'center';
+    transition:transform 0.3s;
+}
+
+.mainProductDisplayImg:hover{
+    transform:scale(1.1) ;
+    transform-origin: center;
+}
+.description-sec{
+    height:35px;
+    width: 200px;
+    display: flex;
+}
+.name-sec{
+    width: 70%;
+    height:35px ;
+    text-align: start;
+    color: #4C9BF7;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: -webkit-box;
+    max-width: 70%;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.price-sec{
+    width: 30%;
+    height:35px ;
+    color: black;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+
+.favouriteIconButton{
+    position: absolute !important;
+    padding: 7px !important;
+    right: 12px !important;
+    top: 10px !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px !important;
+    background-color: white !important;
+}
+
+.LookIconButton{
+    position: absolute !important;
+    right: 5px !important;
+    left: 5px !important;
+    /* top: 10px !important; */
+    bottom: 27%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px !important;
+    background-color: white !important;
+    height: 30px !important;
+    width: 190px !important;
+    border: 1px solid black !important;
+    border-radius: 10px !important;
+}
+
+.LookIconButton p{
+    font-size: 10px !important;
+    padding: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+    color: black;
+    font-weight: bold;
+}
+.LookIconButton:hover{
+    background-color: black !important;
+}
+.LookIconButton:hover p{
+    color: white;
+}
+
+.ratingTabBar{
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    padding-bottom: 1px;
+    background-color: white;
+    left: 10px;
+    top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ratingTabBar p{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.description-sec2{
+    height:35px;
+    width: 200px;
+    display: flex;
+}
+.shortDescript{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.shortDescript p{
+  color: grey !important;
+  font-size: 10px !important;
+  margin: 0px !important;
+  font-weight: 600 !important;
+  text-align: start;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 180px;
+  overflow: hidden;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    .mainProductCardContainer{
+        height: 250px;
+        width: 180px;
+        border-radius: 7px;
+    }
+    .img-sec{
+        height: 180px;
+        width: 180px;
+        border-radius: 7px;
+    }
+    .mainProductDisplayImg{
+        height: 180px;
+        width: 180px;
+        border-radius: 7px;
+    }
+    .description-sec{
+        height:20px;
+        width: 180px;
+    }
+    .name-sec{
+        width: 70%;
+        height:25px ;
+        text-align: start;
+        color: #4C9BF7;
+        font-size: 12px;
+        line-height: 13px;
+        font-weight: bold;
+        margin-top: 7px;
+        margin-left: 5px;
+        display: -webkit-box;
+        max-width: 70%;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .price-sec{
+        width: 30%;
+        height:20px ;
+        color: black;
+        font-size: 12px;
+        line-height: 13px;
+        margin-top: 25px;
+        margin-right: 5px;
+    }
+    .favouriteIconButton{
+        padding: 4px !important;
+        right: 10px !important;
+        top: 10px !important;
+    }
+    
+    .LookIconButton{
+        right: 7px !important;
+        left: 7px !important;
+        /* top: 10px !important; */
+        bottom: 30%;
+        height: 30px !important;
+        width: 170px !important;
+    }
+    
+    .LookIconButton p{
+        font-size: 8px !important;
+        margin-left: -20px !important;
+        margin-right: -20px !important;
+    }
+    .ratingTabBar{
+        height: 25px;
+        width: 45px;
+    }
+    
+    .ratingTabBar p{
+        font-size: 12px;
+    }
+    
+    .description-sec2{
+        height:35px;
+        width: 160px;
+    }
+    .shortDescript{
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .shortDescript p{
+      font-size: 10px !important;
+      margin: 0px !important;
+      font-weight: 600 !important;
+      width: 160px;
+    }
+    
+  }
+
+
+
+  @media screen and (max-width: 500px) {
+    .mainProductCardContainer{
+        height: 235px;
+        width: 170px;
+        border-radius: 7px;
+    }
+    .img-sec{
+        height: 170px;
+        width: 170px;
+        border-radius: 7px;
+    }
+    .mainProductDisplayImg{
+        height: 170px;
+        width: 170px;
+        border-radius: 7px;
+    }
+    .description-sec{
+        height:15px;
+        width: 170px;
+    }
+    .name-sec{
+        width: 70%;
+        height:40px ;
+        text-align: start;
+        color: #4C9BF7;
+        font-size: 12px;
+        line-height: 13px;
+        font-weight: bold;
+        margin-top: 7px;
+        margin-left: 5px;
+        display: -webkit-box;
+        max-width: 70%;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .price-sec{
+        width: 30%;
+        height:40px ;
+        color: black;
+        font-size: 12px;
+        line-height: 13px;
+        margin-top: 25px;
+        margin-right: 4px;
+    }
+    .favouriteIconButton{
+        padding: 4px !important;
+        right: 10px !important;
+        top: 10px !important;
+    }
+    
+    .LookIconButton{
+        right: 7px !important;
+        left: 7px !important;
+        /* top: 10px !important; */
+        bottom: 30%;
+        height: 30px !important;
+        width: 156px !important;
+    }
+    
+    .LookIconButton p{
+        font-size: 8px !important;
+        margin-left: -20px !important;
+        margin-right: -20px !important;
+    }
+    .ratingTabBar{
+        height: 25px;
+        width: 45px;
+    }
+    
+    .ratingTabBar p{
+        font-size: 10px;
+    }
+    
+    .description-sec2{
+        height:35px;
+        width: 160px;
+    }
+    .shortDescript{
+        margin-top: 23px;
+        margin-left: 5px;
+    }
+    .shortDescript p{
+      font-size: 10px !important;
+      margin: 0px !important;
+      font-weight: 600 !important;
+      width: 160px;
+    }
+    
+  }

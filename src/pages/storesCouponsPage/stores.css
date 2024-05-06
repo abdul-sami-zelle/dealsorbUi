@@ -1,0 +1,857 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&display=swap');
+
+.banner{
+    height: 50vh;
+    width: 100%;
+    background-color: #cccccc;
+    background-size:100% 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.storeNameHeading{
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+
+.offer{
+    font-size: 25px;
+    font-weight: 400;
+    color: #DB4444;
+    /* margin: 30px 0px 20px 10px; */
+}
+
+.shopNow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #BFBFBF;
+    background: #FFF;
+    width: 80%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border: 1px solid #BFBFBF;
+    background: #FFF;
+    flex-shrink: 0;
+    height: 221px;
+}
+.boldHeadings{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px; /* 170% */
+}
+.smallDescription{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 11px; /* 137.5% */
+}
+
+.normalMainHeading{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.aboutShoppingStore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border: 1px solid #BFBFBF;
+    background: #FFF;
+    flex-shrink: 0;
+    padding: 15px;
+}
+.normalParagraph p{
+    color: #545454;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: center;
+}
+
+.topStores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border: 1px solid #BFBFBF;
+    background: #FFF;
+    flex-shrink: 0;
+}
+.headerTopStores{
+    width: 100%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.seeAll{
+    color: #0B2D86;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 200% */
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+.storeLogo{
+    width: 100%;
+    height: 80px;
+    border: 0.5px solid #BFBFBF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.storeLogo:hover{
+    border: 1px solid red;
+}
+
+.storeLogo img{
+    margin: 20px;
+    width: 50px;
+    height: 30px;
+}
+
+
+.couponImageType{
+    width: 80%;
+  
+    border: 0.5px solid #BFBFBF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #ECECEC ;
+}
+
+.couponImageTypeSub{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border: 0.5px solid #BFBFBF;
+}
+.couponImageTypeSub img{
+    height: 70px;
+    width: 140px;
+}
+.couponImageTypeSub p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: bolder !important;
+}
+.couponCode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 54px;
+    width: 80%;
+    border: 2px dashed grey;
+    background-color: #BFBFBF;
+    font-size: 27px;
+    font-weight: bolder;
+    color: #000;
+}
+.couponImageTypeSub h6{
+    color: grey;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.couponImageTypeSub h5{
+    color: #DB4444;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+}
+.lastSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first{
+    width: 20px;
+    height: 20px;
+} 
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flagImg{
+    height: 20px !important;
+    width: 40px !important;
+}
+.logoImg{
+    height: 20px !important;
+    width: 70px !important;
+}
+.small{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.storeFeatures{
+    width: 80%;
+    border: 0.5px solid #BFBFBF;
+    background-color: #FFF;
+    padding: 10px;
+}
+
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.circleStyle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.subcircleStyle{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: black;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.subcircleStyle img {
+    height: 15px;
+    width: 15px;
+}
+.features h1{
+    width: 70%; 
+    padding-top: 5px;
+    color: #2D5377;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 10px;
+    text-align: start;
+    
+}
+
+
+
+
+
+/* coupon card and description styling */
+
+
+.couponCardStorePage{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+}
+
+.section1{
+    width: 20%;
+    /* height: 200px; */
+    background-color: white;
+    border-top: 0.5px solid #BFBFBF;
+    border-left: 0.5px solid #BFBFBF;
+    border-bottom: 0.5px solid #BFBFBF;
+    border-right: 0.5px solid #BFBFBF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.section2{
+    padding: 10px;
+    width: 80%;
+    /* height: 200px; */
+    background-color: white;
+    border-top: 0.5px solid #BFBFBF;
+    border-right: 0.5px solid #BFBFBF;
+    border-bottom: 0.5px solid #BFBFBF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.couponsCardOffer{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.couponTag{
+    color: #A10404;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.couponMainHeading{
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+}
+
+.codeSec2B{
+    width: 179px;
+    height: 37px;
+    flex-shrink: 0;
+    border: 1px solid #BFBFBF;
+    background: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.couponCodeStorePage{
+    display: flex;
+}
+
+.couponCodeStorePageA{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+.couponCodeStorePageA p{
+    width: 90%;
+    color: #2D5377;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.linkCouponCode{
+    display: flex;
+    align-items: center;
+}
+
+.linkCouponCode h6{
+    font-size: 12px;
+    font-weight: 400;
+    color: #2D5377;
+    text-align: center;
+    padding-top: 6px;
+    padding-left: 5px;
+}
+
+.tab1{
+    height: 20px;
+    border: 1px solid #BFBFBF;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.tab1 h1{
+    font-size: 12px;
+    font-weight: 700;
+    color: #2D5377;
+    text-align: center;
+    padding-top: 5px;
+
+}
+.tab1 h2{
+    font-size: 12px;
+    font-weight: 600;
+    color: #2D5377;
+    text-align: center;
+    padding-left: 2px;
+    padding-top: 5px;
+}
+.lastSectionCouponPage{
+    display: flex;
+    justify-content: space-between;
+}
+.lastSectionCouponPage img{
+    height: 16px;
+    width: 16px;
+}
+.tab1 img{
+    height: 13px;
+    width: 13px;
+}
+
+
+.couponCardStorePageMain{
+    display: flex;
+    flex-direction: column;
+    
+}
+.couponDescription{
+    width: 100%;
+    border-bottom: 1px solid #BFBFBF;
+    border-right: 1px solid #BFBFBF;
+    border-left: 1px solid #BFBFBF;
+    background-color: #FFF;
+    padding: 15px;
+}
+.descriptionSectionCoupon{
+    color: #545454;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: justify;
+}
+.couponAttributes{
+    display: flex;
+}
+.attrbutes{
+  display: flex;
+  flex-direction: column;
+}
+.values{
+    display: flex;
+    flex-direction: column;
+}
+
+.attrbutes h1{
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    text-align: start;
+}
+.values h1{
+    font-size: 12px;
+    font-weight: 700;
+    color: #2D5377;
+    text-align: center;
+    padding-top: 5px;
+    text-align: start;
+}
+
+
+/* major offer at brand */
+
+
+.majorDiscountOfferMain{
+    display: flex;
+}
+
+.majorDiscountOfferMainSection1{
+    width: 20%;
+
+    background-color: white;
+    border-top: 0.5px solid #BFBFBF;
+    border-left: 0.5px solid #BFBFBF;
+    border-bottom: 0.5px solid #BFBFBF;
+    border-right: 0.5px solid #BFBFBF;
+}
+
+.majorDiscountOfferMainSection2{
+    width: 80%;
+    background-color: white;
+    border-top: 0.5px solid #BFBFBF;
+    border-bottom: 0.5px solid #BFBFBF;
+    border-right: 0.5px solid #BFBFBF;
+    padding: 15px;
+}
+
+.couponMainHeadingOffer{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.majorDiscountOfferMainSection2 p {
+    color: grey;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+}
+
+.lastSubSectionOffer img{
+    height: 18px;
+    width: 18px;
+}
+
+.lastSubSectionOffer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.majorDiscountOfferMainSection1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.tipOffer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tipOffer img{
+    height: 60px;
+    width: 60px;
+}
+
+
+.reviewsArticles{
+    border: 0.5px solid #BFBFBF;
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+}
+
+.topUserComments{
+    border: 0.5px solid #BFBFBF;
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+}
+
+.lastSectionsTopComments{
+    display: flex;
+
+}
+.unHappyComment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dislikeComment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.unHappyComment h1{
+    color: grey;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 5px;
+}
+.dislikeComment h1{
+    color: grey;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    padding-top: 5px;
+}
+
+
+.CustomerRatings{
+    border: 0.5px solid #BFBFBF;
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+}
+
+.CustomerRatings p{
+    color: grey;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+
+
+.popupContent1{
+    height: 300px;
+
+}
+
+.upperContentPopup{
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+}
+.upperContentPopup1{
+    display: flex;
+}
+.upperContentPopup1 p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 6px;
+}
+.lowerContentPopup{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F5F5F5;
+}
+
+.lowerContentPopup p{
+    font-size: 12px;
+    color: #6C6C6C;
+    font-weight: bold;
+}
+
+.codeCopyUiPopup{
+    height: 60px;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    padding: 5px;
+}
+
+.codeToCopy{
+    border: 2px dashed #DB4444;
+    width: 70%;
+    background-color: white;
+    border-radius: 5px;
+    background-color: rgba(219, 68, 68, 0.5);
+    font-weight: bolder;
+    font-size: 26px;
+    color: #000;
+    text-align: center;
+    margin-right: 10px;
+}
+.webViewContentRightSide{
+    display: block;
+  }
+  .mobViewContentRightSide{
+    display: none;
+}
+.lastSectionCouponPageMobile{
+    display: none !important;
+}
+
+@media screen and (max-width: 1050px) {
+    .lastSectionCouponPage{
+        display: none;
+    }
+    
+
+  .lastSectionCouponPageMobile{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .linkCouponCode h6{
+    font-size: 10px;
+    font-weight: 400;
+    color: #2D5377;
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+  }
+
+
+@media screen and (max-width:899px) {
+    .webViewContentRightSide1{
+        align-items:center !important;
+    }
+    .storeNameHeading{
+        font-size: 25px;
+        font-weight: 500;
+        color: black;
+    }
+   
+}
+
+
+@media screen and (max-width:767px) {
+    .section1{
+        width: 100%;
+        /* height: 200px; */
+        background-color: white;
+        border-top: 0.5px solid #BFBFBF;
+        border-left: 0.5px solid #BFBFBF;
+        border-bottom: 0.5px solid #BFBFBF;
+        border-right: 0.5px solid #BFBFBF;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .couponCardStorePage{
+        width: 100%;
+        /* height: 200px; */
+        display: flex;
+        flex-direction: column;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+       
+    }
+    .section2{
+        padding: 10px;
+        width: 100%;
+        /* height: 200px; */
+        background-color: white;
+        border-top: 0.5px solid #BFBFBF;
+        border-right: 0.5px solid #BFBFBF;
+        border-bottom: 0.5px solid #BFBFBF;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .couponsCardOffer{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .couponTag{
+
+        font-size: 14px;
+
+    }
+    .couponMainHeading{
+        font-size: 18px;
+    }
+    .majorDiscountOfferMain{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .majorDiscountOfferMainSection1{
+        width: 100%;
+    }
+    .majorDiscountOfferMainSection2{
+        width: 100%;
+    }
+    .banner{
+        height: 30vh;
+        width: 100%;
+       
+        background-color: #cccccc;
+        background-size:100% 30vh;
+        background-repeat: no-repeat;
+        
+    }
+}
+
+@media screen and (max-width:500px) {
+    .section2BCouponeDescriptionCode{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .linkCouponCode{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .couponsCardOffer{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .couponTag{
+
+        font-size: 10px;
+
+    }
+    .couponMainHeading{
+        font-size: 16px;
+    }
+    .shopNow{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+    }
+    .aboutShoppingStore{
+        width: 100%;
+    }
+    .topStores{
+        width: 100%;
+    }
+    .couponImageType{
+        width: 100%;
+    }
+    .storeFeatures{
+        width: 100%;
+    }
+    .storeFeatures{
+        width: 100%;
+    }
+    .banner{
+        height: 20vh;
+        width: 100%;
+        
+        background-color: #cccccc;
+        background-size:100% 20vh;
+        background-repeat: no-repeat;
+        
+    }
+}

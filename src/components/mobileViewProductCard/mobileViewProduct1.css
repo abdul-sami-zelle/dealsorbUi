@@ -1,0 +1,65 @@
+.mainMobileProduct{
+    background-color: white;
+    border-radius: 5px;
+    height: 200px;
+   max-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageSectionMobile{
+    border-radius: 5px;
+    margin-top: 3%;
+    height:60%;
+    width:94%;
+    background-color: blue;
+    background-image: url('https://www.idealancy.pk/images/product_gallery/md_1672906597_oil_fliter_jug_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contentSectionMobile{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    height:32%;
+    width:94%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.contentSectionMobile h1{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+}
+.contentSectionMobile p{
+    color: black;
+    font-size: 8px;
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+
+.contentSectionMobile Button{
+    height: 30px;
+    width: 100%;
+    background-color:#666666 ;
+    color: white;
+    font-weight: bold;
+    font-size: 8px;
+}
+
+.contentSectionMobile Button:hover{
+    background-color:#666666 ;
+}
+
+.seeAllBtnMobilePr{
+    background-color:#DB4444 !important;
+    height: 25px !important;
+    width: 80px !important;
+    color: white !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}

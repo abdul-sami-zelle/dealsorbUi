@@ -1,0 +1,84 @@
+.mainContainerDD{
+    height: 348px;
+    width: 275px;
+    background-color: awhitequa;
+}
+
+.imgSectionDD{
+    width: 100%;
+    height: 45%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remainingSecDD{
+    width: 100%;
+    height: 55%;
+    background-color: white;
+    position: relative;
+    padding: 10px;
+}
+
+.storeLogoDD{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: aquamarine;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.storeLogoDD img{
+    height: 20px;
+    width: 80px;
+}
+
+.dealHeadingDD{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    height: 30px;
+    width: 70px;
+    background-color: #2980b9;
+    color: white;
+    padding: 5px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    font-weight:500;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.remainingSecDD h3{
+    font-size: 20px;
+    color: #d43104;
+    margin: 0;
+    font-style: bold;
+    
+}
+
+.remainingSecDD p{
+    font-size: 12px;
+    color: #000C2D;
+    margin: 0;
+    font-weight: bold;
+    
+}
+
+.remainingSecDD h5{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 12px;
+    color: #000C2D;
+    margin: 0;
+    font-weight: bold;
+    
+}

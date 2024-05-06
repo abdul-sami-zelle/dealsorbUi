@@ -1,0 +1,62 @@
+.mainPopup3Container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* Ensure the modal is on top of everything else */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+}
+
+
+.mainBodyPopUp3{
+    height: 160px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.imgPopUp3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.imgPopUp3 img{
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.imgPopUp3 h1{
+    font-family: 'Montserrat';
+    color: #36454F;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.mainBodyPopUp3 p{
+    font-family: 'Montserrat';
+    color: #36454F;
+    font-size: 12px;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.closeBtnPOpup3{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

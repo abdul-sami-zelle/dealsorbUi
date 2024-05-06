@@ -1,0 +1,327 @@
+.color-selector {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .color-box {
+    width: 38px;
+    height: 38px;
+    /* border-radius: 50%; */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border 0.3s;
+  }
+
+  .color-box-main {
+    width: 40.5px;
+    height: 40.5px;
+    /* border-radius: 50%; */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: border 0.3s;
+  }
+  
+  .selected {
+    border: 0.5px solid black;
+    
+  }
+
+  .variation-selector {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .variation-button {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .variation-button.selected {
+    background-color: #DB4444;
+    color: white;
+  }
+  
+
+ 
+  .webViewSlider{
+    display: flex;
+  }
+
+  .App {
+    font-family: sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+
+
+  
+  .images-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 440px;
+    
+    overflow: hidden;
+    scroll-behavior: none;
+    scroll-behavior: smooth;
+    transition: scroll 0.3s ease-in-out;
+  }
+  
+  .image {
+    display: block;
+    object-fit:fill;
+    height: 80px; 
+    width: 80px;
+    margin: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .nav-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    background-color: #DB4444;
+    border-radius: 6px;
+    height: 30px;
+    width: 100px;
+    /* margin: 5px; */
+  }
+  images-container::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.content{
+  border-radius: 10px;
+  border: 1px solid #DDDDDD;
+  padding: 10px;
+}
+
+
+#imageContainer img{
+  width: 100%;
+  height: 500px;
+}
+
+
+
+.mobileViewSlider{
+  font-family: sans-serif;
+  align-items: center;
+  display: none;
+  justify-content: center;
+  flex-direction: row;
+}
+.nav-btnMobileView{
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  background-color: #c3c3c3;
+  border-radius: 6px;
+  height: 100px;
+  width: 25px;
+}
+.images-containerMobileView{
+  display: flex;
+  flex-direction: row;
+  max-width:900px;
+  overflow: hidden;
+  scroll-behavior: none;
+  scroll-behavior: smooth;
+  transition: scroll 0.3s ease-in-out;
+}
+
+.ProductMainName{
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
+}
+
+.btnsSec1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .nav-btn{
+    height: 30px;
+    width: 90px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .nav-btn{
+    height: 28px;
+    width: 80px;
+  }
+  #imageContainer img{
+    width: 100%;
+    height: 450px;
+  }
+  .images-container{
+    max-height: 390px;
+  }
+  .App{
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #imageContainer img{
+    width: 98%;
+    height: 420px;
+  }  
+  .images-container{
+    max-height: 364px;
+  }
+  .App{
+    margin-right: 20px;
+  }
+
+}
+@media screen and (max-width: 950px) {
+  #imageContainer img{
+    width: 96%;
+    height: 400px;
+  }  
+  .images-container{
+    max-height: 340px;
+  }
+  .App{
+    margin-right: 20px;
+  }
+
+}
+#bigImage{
+  display: block;
+  object-fit:fill;
+  height: 560px; 
+  width: 100%;
+
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+@media screen and (max-width: 900px) {
+  .mobileViewSlider{
+    display: flex;
+    margin-bottom: 30px !important;
+  }
+  .images-container{
+    display: none;
+  }
+  .nav-btn{
+    display: none;
+  }
+  .images-containerMobileView{
+    width:800px !important;
+    
+  }
+  #imageContainer img{
+    width: 100%;
+    height: 500px;
+  }
+  
+}
+
+
+@media screen and (max-width: 600px) {
+  .images-containerMobileView{
+    max-width:350px;
+  }
+  .App{
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #imageContainer img{
+    width: 100%;
+    height: 320px;
+  }
+  .images-containerMobileView{
+    max-width:300px;
+  }
+  .ProductMainName{
+    font-size: 20px;
+  }
+  .btnsSec1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .addToCartBtn{
+    margin-bottom: 7px !important;
+    width: 300px !important;
+  }
+  .addToWishBtn{
+    width: 300px !important;
+  }
+
+  
+  
+}
+
+
+.swiper {
+  width: 600px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  
+}
+
+.swiper-slide img {
+  display: block;
+  width:200px;
+}
+#app { height: 50% }
+
+
+
+.divider{
+  height: 1px;
+  width: 100%;
+  color: #DDDDDD;
+}
