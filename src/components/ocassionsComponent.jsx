@@ -143,7 +143,7 @@ export default function Ocassions() {
               <Grid container rowSpacing={{lg:1.5, xs: 1, sm: 2, md: 1 }} columnSpacing={{lg:0, xs: 1, sm: 2, md: 1.5 }}>
       {products.map((item, index) => (
         <Grid item key={index} xs={6} sm={4} md={6} lg={6}>
-          <OcassionProductCard
+          {/* <OcassionProductCard
             name={item.name}
             url={item.photo}
             price={item.price}
@@ -153,7 +153,7 @@ export default function Ocassions() {
             arrayImages={item.arrayImages}
             colors=""
             sizes=""
-          />
+          /> */}
         </Grid>
       ))}
     </Grid>
